@@ -981,15 +981,19 @@
 
 * [Flix2day](https://flix2day.to/)
 * [Mov2day](https://mov2day.to/)
+* [1mov](https://1mov.to/)
 * [2flix](https://2flix.to/)
 * [SflixTV](https://sflixtv.to/)
-* [Flixhive](https://flixhive.to/)
+* [FlixHive](https://flixhive.to/)
+* [FlixFlare](https://flixflare.to/)
+* [FlixRave](https://flixrave.to/)
 * [CineZone](https://cinezone.to/)
 * [WatchSeriesX](https://watchseriesx.to/)
 * [Theflixtor](https://theflixtor.to/)
 * [VumooX](https://vumoox.to/)
 * [HuraWatch2](https://hurawatch2.to/)
 * [TheFlixersz](https://theflixerz.to/)
+* [Soap2dayX2](https://soap2dayx2.to/)
 
 ***
 

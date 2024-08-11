@@ -515,7 +515,7 @@
 * [Bevy Engine](https://bevyengine.org/) / [Extensions](https://bevy-cheatbook.github.io/setup/unofficial-plugins.html)
 * [ursina engine](https://www.ursinaengine.org/)
 * [stride3d](https://www.stride3d.net/) / [GitHub](https://github.com/stride3d/stride)
-* [cocos](https://www.cocos.com/en/) / [GitHub](https://github.com/cocos2d/cocos2d-x)
+* [cocos](https://www.cocos.com/en/) / [Resources](https://github.com/cocos/awesome-cocos) / [GitHub](https://github.com/cocos/cocos-engine)
 * [microStudio](https://microstudio.itch.io/microstudio)
 * [AnyRPG](https://www.anyrpg.org/) - RPG Engine
 * [RPG Playground](https://rpgplayground.com/) - Simple RPG Creator
@@ -726,6 +726,7 @@
 * ⭐ **[freeCodeCamp](https://www.freecodecamp.org/)** - Programming / Courses / Interactive
 * ⭐ **[Git Cheatsheet](https://www.ndpsoftware.com/git-cheatsheet.html#loc=index;)** or [Git Commands](https://gabrieldejesus.github.io/git-commands/) / [2](https://github.com/gabrieldejesus/git-commands) - Git Command Lists
 * ⭐ **[OpenVim](https://openvim.com/)** - Interactive Vim Tutorial
+* ⭐ **[StarSQL](https://selectstarsql.com/)** or [Learn SQL](https://sqlbolt.com/) - SQL Lessons
 * [First Timers Only](https://www.firsttimersonly.com/) or [First Contributions](https://firstcontributions.github.io/) - Contribution Guides for Beginners
 * [Git Guide](https://fateen45.notion.site/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833) or [Git Tips](https://github.com/git-tips/tips) - Git Guides / Tips
 * [Oh My Git!](https://ohmygit.org/) or [Oh Shit, Git!?!](https://ohshitgit.com/) - Git Learning Game
@@ -770,8 +771,7 @@
 * [Vim Adventures](https://vim-adventures.com/) - Vim Learning Game
 * [Vim Golf](https://www.vimgolf.com/) - Vim Challenges
 * [High Assurance Rust](https://highassurance.rs/) - Software Development Guide
-* [Learn SQL](https://sqlbolt.com/) - SQL Lessons
-* [SQL PD](https://sqlpd.com/) or [SQL Easy](https://www.sql-easy.com/) - SQL Learning Games
+* [SQL PD](https://sqlpd.com/), [Lost at SQL](https://lost-at-sql.therobinlord.com/) or [SQL Easy](https://www.sql-easy.com/) - SQL Learning Games
 * [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) - PostgreSQL Tutorial
 * [MySQL Tutorial](https://www.mysqltutorial.org/) - MySQL Tutorial
 * [LearnOpenGL](https://learnopengl.com/) - Learn OpenGL
