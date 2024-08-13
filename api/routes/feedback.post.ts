@@ -11,6 +11,27 @@ export default defineEventHandler(async (event) => {
   )
   const env = useRuntimeConfig(event)
 
+  const fields = [
+    {
+      name: 'Page',
+      value: page,
+      inline: true
+    },
+    {
+      name: 'Message',
+      value: message,
+      inline: false
+    }
+  ]
+
+  if (heading) {
+    fields.push({
+      name: 'Section',
+      value: heading,
+      inline: true
+    })
+  }
+
   // FIXME: somehow this is not working, but it worked before
   // const path = 'feedback'
   //
@@ -21,10 +42,6 @@ export default defineEventHandler(async (event) => {
   //   })
   // }
 
-  let description = `${message}\n\n`
-  description += `**Page:** \`${page}\``
-  if (heading) description += `**Heading:** \`${heading}\``
-
   await fetcher()
     .post(env.WEBHOOK_URL, {
       username: 'Feedback',
@@ -34,7 +51,7 @@ export default defineEventHandler(async (event) => {
         {
           color: 3447003,
           title: getFeedbackOption(type).label,
-          description
+          fields
         }
       ]
     })
