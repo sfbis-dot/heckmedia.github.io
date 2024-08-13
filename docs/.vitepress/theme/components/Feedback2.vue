@@ -71,13 +71,13 @@ const helpfulText = props.heading ? 'section' : 'page'
     <button
       v-if="!showCard"
       @click="showCard = true"
-      class="mt-5 inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
+      class="inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
     >
       <span class="i-carbon-send-alt" />
     </button>
     <button
       v-if="showCard"
-      class="mt-5 inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
+      class="inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
       @click="showCard = false"
     >
       <span class="i-carbon-close" />
