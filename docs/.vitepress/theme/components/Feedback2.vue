@@ -9,6 +9,10 @@ import {
 } from '../../types/Feedback'
 import { useRouter } from 'vitepress'
 
+const props = defineProps<{
+  heading?: string
+}>()
+
 const loading = ref<boolean>(false)
 const error = ref<unknown>(null)
 const success = ref<boolean>(false)
@@ -30,7 +34,8 @@ async function handleSubmit(type?: FeedbackType['type']) {
   const body: FeedbackType = {
     message: feedback.message,
     type: selectedOption.value.value,
-    page: feedback.page
+    page: feedback.page,
+    ...(props.heading && { heading: props.heading })
   }
 
   try {
@@ -58,25 +63,44 @@ async function handleSubmit(type?: FeedbackType['type']) {
 }
 
 const showCard = ref<boolean>(false)
+const helpfulText = props.heading ? 'section' : 'page'
 </script>
 
 <template>
-  <button
-    v-if="!showCard"
-    class="mt-2 text-primary font-bold text-underline text-sm"
-    @click="showCard = true"
-  >
-    <span class="i-carbon-send-alt mr-2" />
-    <span>Send Feedback</span>
-  </button>
-  <button
-    v-if="showCard"
-    class="mt-2 text-primary font-bold text-underline text-sm"
-    @click="showCard = false"
-  >
-    <span class="i-carbon-close mr-2" />
-    <span>Close Feedback</span>
-  </button>
+  <template v-if="props.heading">
+    <button
+      v-if="!showCard"
+      @click="showCard = true"
+      class="mt-5 inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
+    >
+      <span class="i-carbon-send-alt" />
+    </button>
+    <button
+      v-if="showCard"
+      class="mt-5 inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
+      @click="showCard = false"
+    >
+      <span class="i-carbon-close" />
+    </button>
+  </template>
+  <template v-else>
+    <button
+      v-if="!showCard"
+      class="mt-2 text-primary font-bold text-underline text-sm"
+      @click="showCard = true"
+    >
+      <span class="i-carbon-send-alt mr-2" />
+      <span>Send Feedback</span>
+    </button>
+    <button
+      v-if="showCard"
+      class="mt-2 text-primary font-bold text-underline text-sm"
+      @click="showCard = false"
+    >
+      <span class="i-carbon-close mr-2" />
+      <span>Close Feedback</span>
+    </button>
+  </template>
 
   <Transition name="fade" mode="out-in">
     <div v-if="showCard" class="wrapper step">
@@ -85,7 +109,7 @@ const showCard = ref<boolean>(false)
           <div>
             <div>
               <p class="desc">{{ getPrompt() }}</p>
-              <p class="heading">How helpful was this page?</p>
+              <p class="heading">How helpful was this {{ helpfulText }}?</p>
             </div>
           </div>
           <div class="flex flex-wrap gap-2">
@@ -101,7 +125,9 @@ const showCard = ref<boolean>(false)
         </div>
         <div v-else-if="feedback.type && !success" class="step">
           <div>
-            <p class="desc">Let us know how helpful this page is</p>
+            <p class="desc">
+              Let us know how helpful this {{ helpfulText }} is
+            </p>
             <div>
               <span>{{ getFeedbackOption(feedback.type)?.label }}</span>
               <button
