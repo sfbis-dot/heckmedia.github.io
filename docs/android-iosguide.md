@@ -143,7 +143,7 @@
 
 * 🌐 **[ReVanced-Patch-Bundles](https://github.com/Jman-Github/ReVanced-Patch-Bundles)** - ReVanced Patch Index
 * ⭐ **[ReVanced Manager](https://revanced.app/)** - Android App Patcher / [Discord](https://discord.com/invite/rF2YcEjcrT) / [GitHub](https://github.com/ReVanced/revanced-manager)
-* ⭐ **[ReVanced MMT](https://kazimmt.github.io/)** / [TG](https://t.me/ReVanced_MMT/242) or [ReVanced Trouble​shooting Guide](https://sodawithoutsparkles.github.io/revanced-troubleshooting-guide/) - Unofficial ReVanced Docs, Guides, and Troubleshooting
+* ⭐ **[ReVanced MMT](https://kazimmt.github.io/)** / [Telegram](https://t.me/ReVanced_MMT/242) or [ReVanced Trouble​shooting Guide](https://sodawithoutsparkles.github.io/revanced-troubleshooting-guide/) - Unofficial ReVanced Docs, Guides, and Troubleshooting
 * [RVX Manager](https://github.com/inotia00/revanced-manager) - ReVanced Extended / [Subreddit](https://www.reddit.com/r/revancedextended/) / [Discord](https://discord.gg/yMnc3EywRZ)
 * [ReVanced Auto-Update](https://rentry.co/revanced-auto-update) - Update ReVanced Apps Automatically
 * [ReVanced APKs](https://revanced-apks.pages.dev/) / [GitHub](https://github.com/revanced-apks/build-apps) or [ReVanced Magisk Module](https://github.com/j-hc/revanced-magisk-module) / [Telegram](https://t.me/rvc_magisk) - Pre-built ReVanced APKs
@@ -425,7 +425,7 @@
 * ↪️ **[Privacy Based Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_android_browsers)**
 * ↪️ **[Encrypted Messengers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_encrypted_android_messengers)**
 * ↪️ **[Android 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
-* ⭐ **[TrackerControl](https://trackercontrol.org/)**, [Permission Pilot](https://github.com/d4rken-org/permission-pilot), [Exodus](https://reports.exodus-privacy.eu.org/en/), [PermissionManagerX](https://github.com/mirfatif/PermissionManagerX) or [HideDroid](https://github.com/Mobile-IoT-Security-Lab/HideDroid) - App Permission Managers
+* ⭐ **[TrackerControl](https://trackercontrol.org/)**, [Permission Pilot](https://github.com/d4rken-org/permission-pilot), [Exodus](https://reports.exodus-privacy.eu.org/en/) / [2](https://github.com/Exodus-Privacy/exodus-android-app), [PermissionManagerX](https://github.com/mirfatif/PermissionManagerX) or [HideDroid](https://github.com/Mobile-IoT-Security-Lab/HideDroid) - App Permission Managers
 * ⭐ **[VirusTotal](https://docs.virustotal.com/docs/mobile-apps)** or [Pithus](https://beta.pithus.org/) - APK / URL Virus Scanners
 * ⭐ **[DPITunnel](https://github.com/nomoresat/DPITunnel-android)** or [Intra](https://getintra.org) - Proxies
 * ⭐ **[Shadowsocks-Android](https://github.com/shadowsocks/shadowsocks-android)** - Shadowsocks Proxy App
@@ -438,8 +438,7 @@
 * [Privacy Guides](https://www.privacyguides.org/en/android/) - Android Privacy Guides
 * [DroidFS](https://forge.chapril.org/hardcoresushi/DroidFS) - Encrypted File Managers
 * [Extirpater](https://github.com/Divested-Mobile/extirpater) - Space Eraser / Make Deleted Files Irrecoverable
-* [InviZible](https://invizible.net) - Privacy App / [GitHub](https://github.com/Gedsh/InviZible)
-* [Leon](https://github.com/svenjacobs/leon) or [Untracker](https://github.com/zhanghai/Untracker) - Remove URL Tracking
+* [Leon](https://github.com/svenjacobs/leon), [UrlChecker](https://github.com/TrianguloY/UrlChecker), [LinkSheet](https://github.com/LinkSheet/LinkSheet)  or [Untracker](https://github.com/zhanghai/Untracker) - Remove URL Tracking
 * [LibChecker](https://github.com/LibChecker/LibChecker) - View App Third-Party Libraries
 * [Sapio](https://github.com/jonathanklee/Sapio) - Scan Apps for Google Dependency
 * [NetGuard](https://www.netguard.me/) - Block Internet Access Per App / [GitHub](https://github.com/M66B/NetGuard)
@@ -447,7 +446,6 @@
 * [Hypatia](https://gitlab.com/divested-mobile/hypatia) - Antivirus
 * [QUAD9 Connect](https://play.google.com/store/apps/details?id=com.quad9.aegis) - DNS Encryption
 * [AFWall+](https://github.com/ukanth/afwall/) (root) or [Rethink App](https://rethinkfirewall.com/) / [GitHub](https://github.com/celzero/rethink-app), [Karma](https://github.com/StarGW-net/karma-firewall) - Firewalls
-* [UrlChecker](https://github.com/TrianguloY/UrlChecker) - URL Checker
 * [PCAPdroid](https://emanuele-f.github.io/PCAPdroid/) or [keepitup](https://github.com/ibbaa/keepitup/) - Network Monitors
 * [v2rayNG](https://github.com/2dust/v2rayNG) or [V2Ray Proxy](https://play.google.com/store/apps/details?id=free.v2ray.proxy.VPN) - Build Privacy Network
 * [Open SSTP Client](https://github.com/kittoku/Open-SSTP-Client) - SSTP Client
@@ -473,7 +471,8 @@
 * ⭐ **[PairVPN Hotspot](https://pairvpn.com/hotspot)**, [Tetherfi](https://github.com/pyamsoft/tetherfi) or [NetShare](https://netshare.app/) - Create Wi-Fi Hotspots
 * [Feeder](https://f-droid.org/en/packages/com.nononsenseapps.feeder/), [Twine](https://github.com/msasikanth/twine), [FeedMe](https://github.com/seazon/FeedMe), [news](https://f-droid.org/packages/co.appreactor.news/) / [GitHub](https://github.com/bubelov/news), [nunti](https://gitlab.com/ondrejfoltyn/nunti), [Aggregator News](https://play.google.com/store/apps/details?id=com.and96.aggregator_news), [CapyReader](https://github.com/jocmp/capyreader) or [ReadYou](https://github.com/Ashinch/ReadYou) - RSS Readers
 * [Thud](https://github.com/aerotoad/Thud) or [Raven](https://github.com/ksh-b/raven) - News Apps
-* [Mix](https://mix.com/) - Browse Images, Videos & Articles 
+* [Setter](https://github.com/scubajeff/Setter) - Multi-Purpose Search App
+* [Mix](https://mix.com/) - Browse Images, Videos & Articles
 * [Mitch](https://sr.ht/~gardenapple/mitch/) - Mobile Frontend for itch.io
 * [DataMonitor](https://github.com/itsdrnoob/DataMonitor) - Data Usage Monitor
 * [PINCredible](https://github.com/cyb3rko/pincredible) - PIN Manager
@@ -482,7 +481,6 @@
 * [TxtNet Browser](https://github.com/lukeaschenbrenner/TxtNet-Browser) - Browse Webpages via SMS
 * [Better Open With](https://play.google.com/store/apps/details?id=com.aboutmycode.betteropenwith) - Improved Link Handling
 * [EasyOpenLink](https://codeberg.org/marc.nause/easyopenlink) - Easily Open Links in Text via Share Function
-* [LinkSheet](https://github.com/LinkSheet/LinkSheet) - Restore URL App Chooser
 * [PassAndroid](https://github.com/ligi/PassAndroid) - Manage Virtual Tickets / Passes
 * [GreenPass](https://github.com/michaeltroger/greenpass-android) - PDF Wallet
 * [Blabber.im](https://blabber.im/) or [Conversations](https://f-droid.org/en/packages/eu.siacs.conversations/) - XMPP Apps
@@ -497,7 +495,6 @@
 * [Lab+](https://github.com/thelooter/labplus_for_gitlab) - GitLab App
 * [WiFiman](https://play.google.com/store/apps/details?id=com.ubnt.usurvey), [WiFiAnalyzer](https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/) or [WLANScanner](https://github.com/bewue/WLANScanner) - Network Scanners
 * [Fing](https://www.fing.com/products/fing-app) - Network Toolkit
-* [MACsposed](https://github.com/DavidBerdik/MACsposed) - Mac Address Spoofing / Root
 
 ***
 
@@ -509,6 +506,7 @@
 * ⭐ **[Voyager](https://vger.app) / [GitHub](https://github.com/aeharding/voyager)**, [Jerboa](https://github.com/dessalines/jerboa), [Eternity](https://codeberg.org/Bazsalanszky/Eternity) or [Thunder](https://github.com/thunder-app/thunder) - Lemmy Clients
 * ⭐ **[Tusky](https://tusky.app/)**, [Mastify](https://github.com/whitescent/Mastify), [tooot](https://tooot.app/ ), [SubwayTooter](https://github.com/tateisu/SubwayTooter), [Megalodon](https://sk22.github.io/megalodon/) or [Dimett](https://github.com/MateriiApps/Dimett) - Mastodon Clients / [Improved Notifications](https://LucasGGamerM.github.io/moshidon/) / [GitHub](https://github.com/LucasGGamerM/moshidon)
 * ⭐ **[Reddit Client Patch Guide](https://github.com/KobeW50/ReVanced-Documentation/blob/main/Reddit-Client-ID-Guide.md)** - How To Patch 3rd Party Reddit Clients
+* ⭐ **[AyuGram](https://t.me/ayugramchat)**, **[Nagram](https://github.com/nextalone/nagram)**, [Nekogram](https://nekogram.app/), , [NekoX](https://github.com/dic1911/NekoX), [TelegramAndroid](https://github.com/Forkgram/TelegramAndroid), , [exteraGram](https://exteragram.app/), [Cherrygram](https://github.com/arsLan4k1390/Cherrygram), [TurboTel](https://t.me/s/TurboTel), [Nullgram](https://github.com/qwq233/Nullgram/), [Octogram](https://octogram.me/) or [Telegram-FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS) - Telegram Clients
 * ⭐ **[piko](https://t.me/pikopatches)** / [GitHub](https://github.com/crimera/piko) or [Squawker](https://github.com/j-fbriere/squawker) - Twitter Apps
 * [Watomatic](https://watomatic.app/) / [GitHub](https://github.com/adeekshith/watomatic) or [AutoResponder](https://www.autoresponder.ai/) - Chat App Auto-Responders
 * [MessengerEx](https://github.com/C10udburst/MessengerEx/) - Facebook Messenger Adblocker
@@ -517,17 +515,16 @@
 * [OldLander](https://github.com/OctoNezd/oldlander) - Improve Old Reddit
 * [Updoot](https://updoot.app/) - Reddit Saved Post / Comment Manager
 * [MobiChan](https://github.com/Rukkaitto/mobichan), [Kuroba](https://github.com/K1rakishou/Kuroba-Experimental) / [2](https://github.com/Adamantcheese/Kuroba) or [Chan](https://github.com/moffatman/chan) - 4Chan Apps
-* [Instander](https://thedise.me/instander/), [Instadev](https://t.me/Instadevofficial), [Instafel](https://t.me/instafel/41) or [MyInsta](https://t.me/instasmashrepo) - Modded Instagram Clients / [Telegram](https://t.me/instander) / [Tools](https://play.google.com/store/apps/details?id=com.dageek.socialtoolbox_android)
+* [Instander](https://thedise.me/instander/), [Instadev](https://instadevofficial.netlify.app/) / [Telegram](https://t.me/Instadevofficial), [Instafel](https://t.me/instafel/41) or [MyInsta](https://t.me/instasmashrepo) - Modded Instagram Clients / [Telegram](https://t.me/instander) / [Tools](https://play.google.com/store/apps/details?id=com.dageek.socialtoolbox_android)
 * [TikTokModCloud](https://t.me/TikTokModCloud) - Modded TikTok Client
 * [MessengerPro](https://rentry.co/FMHYBase64#messengerpro) - Modded Facebook Messenger
-* [Nekogram](https://nekogram.app/), [AyuGram](https://t.me/ayugramchat), [NekoX](https://github.com/dic1911/NekoX), [TelegramAndroid](https://github.com/Forkgram/TelegramAndroid), [Nagram](https://github.com/nextalone/nagram), [exteraGram](https://exteragram.app/), [Cherrygram](https://github.com/arsLan4k1390/Cherrygram), [TurboTel](https://t.me/s/TurboTel), [Nullgram](https://github.com/qwq233/Nullgram/), [Octogram](https://octogram.me/) or [Telegram-FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS) - Telegram Clients
 * [Telegram-Themer](https://github.com/therxmv/Telegram-Themer) or [Telegram Monet](https://github.com/mi-g-alex/Telegram-Monet) / [Telegram](https://t.me/tgmonet) - Telegram Theme Creators
 * [Launch Chat](https://github.com/vinaygopinath/launch-chat), [WhatsAppNoContact](https://github.com/theolm/WhatsAppNoContact) or [Tellurium](https://play.google.com/store/apps/details?id=com.quadren.tellurium) - Number-Free WhatsApp Chat
 * [WhatsappWebToGo](https://github.com/92lleo/WhatsappWebToGo) - Mobile WhatsApp Web Client
 * [WhatsAppPatcher](https://github.com/Schwartzblat/WhatsAppPatcher) or [WaEnhancer](https://github.com/Dev4Mod/WaEnhancer) - WhatsApp Patchers
 * [Whatsapp Backup Reader](https://whatsappbr.netlify.app/) - Read Exported Whatsapp Chats
 * [FakeWhats](https://www.fakewhats.com/) or [FakeInfo](https://fakeinfo.net/fake-whatsapp-chat-generator) - Fake WhatsApp Messages
-* [SnapEnhance](https://github.com/rhunk/SnapEnhance) - Snapchat Client / [Telegram](https://t.me/snapenhance)
+* [SE Extended](https://github.com/bocajthomas/SE-Extended) - Snapchat Client / [Telegram](https://t.me/SE_Extended_CI)
 * [Graysky](https://graysky.app/) - Bluesky Client 
 
 ***
@@ -543,7 +540,7 @@
 * ⭐ **[Snapdrop Android](https://github.com/fm-sys/snapdrop-android)** or [pairdrop](https://pairdrop.net/) - File Sharing
 * ⭐ **[FDM](https://play.google.com/store/apps/details?id=org.freedownloadmanager.fdm)**, **[1DM](https://play.google.com/store/apps/details?id=idm.internet.download.manager&hl=en_US)** or [ADM](https://play.google.com/store/apps/details?id=com.dv.adm) - Download Managers
 * ⭐ **[Aria2App](https://github.com/devgianlu/Aria2App)** - Download Manager Controller
-* [Total Commander](https://www.ghisler.com/ce.htm), [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer), [Xplore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore) or [FileNavigator](https://github.com/w2sv/FileNavigator) - File Managers / Explorers
+* [Total Commander](https://www.ghisler.com/ce.htm), [FileNavigator](https://play.google.com/store/apps/details?id=com.w2sv.filenavigator), [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer), [Xplore](https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore) or [FileNavigator](https://github.com/w2sv/FileNavigator) - File Managers / Explorers
 * [Round Sync](https://github.com/newhinton/Round-Sync), [MetaCTRL](https://metactrl.com/) or [FolderSync](https://www.tacit.dk/) - Multi-Site Cloud Storage File Managers
 * [dropbox](https://www.dropbox.com/) / [Sync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) / [GUI](https://github.com/howeyc/crocgui) - Cloud Storage
 * [aQRoss](https://aqross.app/) - QR Code File Sharing
@@ -584,6 +581,7 @@
 * [TheFor](https://thefor.xyz/) - Habit Tracker
 * [MyBrain](https://github.com/mhss1/MyBrain) - Productivity Tracker
 * [Success](https://eveningkid.com/success/) - Productivity Tracker
+* [Unlock Master](https://github.com/sweakpl/unlock-master) - Productivity Tracker
 * [Goodtime](https://github.com/adrcotfas/Goodtime) - Productivity Tracker
 * [timeto](https://github.com/medvedev91/timetome) - Productivity Tracker
 * [Mind Leak](https://play.google.com/store/apps/details?id=de.mdiener.android.mindleak) - Productivity Tracker
@@ -614,6 +612,8 @@
 * [RadiusLocker](https://www.radiuslocker.co/) - Lock Phone When It's not Near You
 * [WTMP](https://play.google.com/store/apps/details?id=com.wtmp.svdsoftware) - Detect When Phone is Touched
 * [LockWatch](https://bloketech.com/lockwatch) or [CrookCatcher](https://www.crookcatcher.app/) - Locate / Recover Stolen Phone
+https://github.com/Akylas/alpimaps
+* [Alpi Maps](https://github.com/Akylas/alpimaps) - Offline Maps
 * [WiFi Space](https://wifispc.com/) - Public WiFi Map
 * [EV-Map](https://ev-map.app/) - Electronic Vehicle Charging Map
 * [LavSeeker](https://github.com/woheller69/lavatories) - Public Toilet Map
@@ -734,9 +734,7 @@
 * [Wikipedia](https://play.google.com/store/apps/details?id=org.wikipedia) - Wikipedia App / [Beta](https://play.google.com/store/apps/details?id=org.wikipedia.beta)
 * [ComicScreen](https://play.google.com/store/apps/details?id=com.viewer.comicscreen), [Bubble2](https://github.com/edeso/bubble2) or [Seeneva](https://seeneva.app/) - Comic Readers
 * [OpenComicVine](https://github.com/proninyaroslav/OpenComicVine) - Comic Tracker
-* [Shosetsu](https://shosetsu.app/) - Light Novels / [GitHub](https://gitlab.com/shosetsuorg/shosetsu) / [Dev Builds](https://github.com/shosetsuorg/shosetsu-preview) / [Discord](https://discord.gg/ttSX7gB)
-* [NovelLibrary](https://github.com/gmathi/NovelLibrary) - Light Novels / [Discord](https://discord.gg/qFZX4vdEdF)
-* [LNReader](https://github.com/LNReader/lnreader), [Baruch](https://github.com/adreeeyan/baruch), [Ranobe](https://github.com/ranobe-org/ranobe), [IReader](https://ireaderorg.netlify.app/) or [QuickNovel](https://apt.izzysoft.de/fdroid/index/apk/com.lagradost.quicknovel) - Light Novels
+* [Shosetsu](https://shosetsu.app/) / [GitHub](https://gitlab.com/shosetsuorg/shosetsu) / [Dev Builds](https://github.com/shosetsuorg/shosetsu-preview) / [Discord](https://discord.gg/ttSX7gB), [NovelLibrary](https://github.com/gmathi/NovelLibrary) / [Discord](https://discord.gg/qFZX4vdEdF), [LNReader](https://github.com/LNReader/lnreader), [Baruch](https://github.com/adreeeyan/baruch), [Ranobe](https://github.com/ranobe-org/ranobe), [IReader](https://ireaderorg.netlify.app/) or [QuickNovel](https://apt.izzysoft.de/fdroid/index/apk/com.lagradost.quicknovel) - Light Novels
 * [SoftGoods](https://softgoods.app/) - Fanfiction
 * [Bionic Reading](https://play.google.com/store/apps/details?id=com.bionic_reading_app) - Reading Fixation Points
 * [OSS Document Scanner](https://github.com/Akylas/OSS-DocumentScanner), [Adobe Scanner](https://www.adobe.com/acrobat/mobile/scanner-app.html), [vFLat Scan](https://play.google.com/store/apps/details?id=com.voyagerx.scanner) or [OpenScan](https://github.com/ethereal-developers/OpenScan) - Document Scanners
@@ -797,6 +795,7 @@
 * [AutoDND](https://github.com/dic1911/android_AutoDND/) - App-Activated Do Not Disturb Mode
 * [Audify](https://play.google.com/store/apps/details?id=in.codeseed.audify) - Reduce Notification Distractions
 * [Volumee](https://maslanka.app/volumee/) or [SoundTap](https://play.google.com/store/apps/details?id=fr.angel.soundtap) - Volume Button Track Control
+* [VolumeLockr](https://github.com/jonathanklee/VolumeLockr) - Volume Locker
 * [Musekit](https://github.com/Kwasow/Musekit) - Tuning Fork / Metronome
 * [SongSync](https://github.com/Lambada10/SongSync) - Download Lyrics
 * [FastLyrics](https://github.com/TecCheck/FastLyrics) or [Rush](https://github.com/shub39/Rush) - Find Lyrics for Playing Song

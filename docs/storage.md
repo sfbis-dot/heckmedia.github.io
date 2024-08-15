@@ -418,6 +418,8 @@
 * [GB Studio](https://www.gbstudio.dev/) / [GitHub](https://github.com/chrismaltby/gb-studio) / [Subreddit](https://www.reddit.com/r/gbstudio) / [Discord](https://discord.com/invite/bxerKnc)
 * [GameMaker](https://gamemaker.io/) / [Resources](https://github.com/bytecauldron/awesome-gamemaker) / [Online](https://yellowafterlife.github.io/GMEdit/)
 * [Arcade Game Designer](https://jonathan-cauldwell.itch.io/arcade-game-designer) / [Multi-platform](https://jonathan-cauldwell.itch.io/multi-platform-arcade-game-designer)
+* [Scratch](https://scratch.mit.edu/) / [Wiki](https://scratch-wiki.info/) / [Addons](https://scratchaddons.com/)
+* Scratch Forks - [Turbowarp](https://turbowarp.org/), [Penguin Mod](https://penguinmod.com/), [Snail IDE](https://www.snail-ide.com/), [Gandi IDE](https://getgandi.com/) or [Adacraft](https://www.adacraft.org/)
 * [HaxeFlixel](https://haxeflixel.com/)
 * [Flame](https://flame-engine.org/)
 * [Pixelbox](https://pixwlk.itch.io/pixelbox)
@@ -426,7 +428,6 @@
 * [Script 8](https://script-8.github.io/)
 * [Tic80](https://tic80.com/)
 * [Byond](https://www.byond.com/)
-* [Scratch](https://scratch.mit.edu/)
 
 ### 3D Game Engines
 
@@ -831,7 +832,7 @@
 
 ## Piracy Site Proxies
 
-[Knaben's Proxy List](https://knaben.info/), [unblockninja](https://unblockninja.com/), [uProxy](https://uproxy.to/), [unblocktorrent](https://unblocktorrent.com/), [unblock.soy](https://unblock.soy/) / [2](https://en-proxy.com/) / [3](https://unb.how/) / [4](https://unblockedscene.com/), [piracyproxy](https://piracyproxy.page/), [dirproxy](https://dirproxy.cc/), [ProxyNinja](https://proxyninja.org/), [ninjaproxy1](https://ninjaproxy1.com/), [immortalproxy](https://immortalproxy.com/)
+[Knaben's Proxy List](https://knaben.info/), [unblockninja](https://unblockninja.com/), [unblocktorrent](https://unblocktorrent.com/), [unblock.soy](https://unblock.soy/) / [2](https://en-proxy.com/) / [3](https://unb.how/) / [4](https://unblockedscene.com/), [piracyproxy](https://piracyproxy.page/), [dirproxy](https://dirproxy.cc/), [ProxyNinja](https://proxyninja.org/), [ninjaproxy1](https://ninjaproxy1.com/), [immortalproxy](https://immortalproxy.com/)
 
 ***
 
@@ -1011,6 +1012,17 @@
 * [Filmzie](https://filmzie.cc/)
 * [Andyday](https://andyday.cc/)
 * [FouMovies](https://foumovies.tv/)
+
+***
+
+### HiAnime Clones
+
+* [4anime](https://4anime.gg/)
+* [kaido](https://kaido.to/)
+* [9animetv](https://9animetv.to/)
+* [anicrush](https://anicrush.to/)
+* [aniwatchtv](https://aniwatchtv.to/)
+* [9anime.pe](https://9anime.pe/)
 
 ***
 

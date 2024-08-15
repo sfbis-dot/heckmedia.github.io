@@ -139,6 +139,7 @@
 * [Ghostwriter](https://ghostwriter.kde.org/) or [Remarkable](https://remarkableapp.github.io/) - Markdown Editor
 * [Gedit](https://wiki.gnome.org/Apps/Gedit), [Geany](https://www.geany.org/), [Leafpad](http://tarot.freeshell.org/leafpad/), [NotepadNext](https://github.com/dail8859/NotepadNext), [taskbook](https://github.com/klaudiosinani/taskbook), [Notepadqq](https://github.com/notepadqq/notepadqq), [Featherpad](https://github.com/tsujan/FeatherPad) or [nb](https://xwmx.github.io/nb) / [GitHub](https://github.com/xwmx/nb) - Text Editor / Note Apps
 * [TextPieces](https://gitlab.com/liferooter/textpieces) - Quick Text Transformations / [Github](https://github.com/liferooter/textpieces)
+* [Durdraw](https://durdraw.org/) - ASCII Editor
 * [ly](https://github.com/fairyglade/ly) - Display Manager with Console UI
 * [GammaStep](https://gitlab.com/chinstrap/gammastep) - Adjust Screen Temperature
 * [Weylus](https://github.com/H-M-H/Weylus) - Use Mobile Device as Trackpad
@@ -158,6 +159,7 @@
 * [Linux-PowerToys](https://github.com/domferr/Linux-PowerToys) - PowerToys for Linux
 * [libmui](https://github.com/buserror/libmui) - Mac Style Widget Library
 * [Railway](https://flathub.org/apps/de.schmidhuberj.DieBahn) - Travel Info Manager
+* [Wike](https://github.com/hugolabe/Wike) - Wikipedia App
 * [Komikku](https://valos.gitlab.io/Komikku/), [Suwayomi-VaadinUI](https://github.com/Suwayomi/Tachidesk-VaadinUI) or [Manga Reader](https://flathub.org/apps/details/com.georgefb.mangareader) - Manga Readers
 * [Mako](https://github.com/emersion/mako), [dunst](https://dunst-project.org/) - Customizable Notification Daemon / [GitHub](https://github.com/dunst-project/dunst)
 * [DidYouMean](https://github.com/hisbaan/didyoumean) - Grammar Check
@@ -483,7 +485,6 @@ Linux Gaming Guide
 * 🌐 **[Ricepedia](https://rizonrice.club/Main_Page)** - Linux Ricing Tools
 * ↪️ **[Linux Themes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_linux_themes)** - Themes for Linux
 * ⭐ **[Elkowar's Wacky Widgets](https://elkowar.github.io/eww)** or **[Aylur's GTK Shell](https://github.com/Aylur/ags)** - Widgeting Systems
-* [Nam's Ricing Guide](https://nam.is-a.dev/blog/ricing/) - Ricing Guide
 * [Gradience](https://github.com/GradienceTeam/Gradience) - Customize GNOME's Adwaita
 * [wpgtk](https://deviantfero.github.io/wpgtk) - Fully Customizable Unix Color Schemer
 * [Akira](https://github.com/akiraux/Akira) - UI/UX Customization
@@ -547,6 +548,7 @@ Linux Gaming Guide
 * [What Route](https://whatroute.net/) - Network Diagnostic Tool
 * [Kexts](https://www.tonymacx86.com/resources/categories/kexts.11/) - UEFI Kexts
 * [File Find](https://gitlab.com/Pixel-Mqster/File-Find) or [Superfile](https://github.com/yorukot/superfile) - File Explorer / Managers
+* [OSXFuse](https://osxfuse.github.io/) - Mac File Integration
 * [Download Shuttle](https://apps.apple.com/in/app/download-shuttle-fast-file/id847809913) or [Progressive Downloader](https://macpsd.net/) - File Download Manager
 * [FlyingCarpet](https://github.com/spieglt/FlyingCarpet) - Cross-Platform AirDrop / [Guide](https://redd.it/vthltc)
 * [Adobe Creative Cloud](https://rentry.co/FMHYBase64#adobe-after-effects-collection) - Adobe CC Guides
