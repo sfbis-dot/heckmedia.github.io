@@ -4,7 +4,9 @@ import { headers } from '../transformer/constants'
 const titles = Object.keys(headers).map((key) => headers[key].title)
 
 export const headersPlugin = (md: MarkdownRenderer) => {
-  md.renderer.rules.heading_open = (tokens, idx, options, _env, self) => {
+  md.renderer.rules.heading_open = (tokens, idx, options, env, self) => {
+    if (!titles.includes(env.frontmatter.title))
+      return self.renderToken(tokens, idx, options)
     // Open a flex container before the heading
     return `<div class="flex items-center gap-2">${self.renderToken(tokens, idx, options)}`
   }
