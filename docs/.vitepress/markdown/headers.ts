@@ -6,7 +6,7 @@ const titles = Object.keys(headers).map((key) => headers[key].title)
 export const headersPlugin = (md: MarkdownRenderer) => {
   md.renderer.rules.heading_open = (tokens, idx, options, _env, self) => {
     // Open a flex container before the heading
-    return self.renderToken(tokens, idx, options)
+    return `<div class="flex items-center gap-2">${self.renderToken(tokens, idx, options)}`
   }
 
   // Add the Feedback component after the heading and close the container
@@ -15,6 +15,6 @@ export const headersPlugin = (md: MarkdownRenderer) => {
     const heading = tokens[idx - 1]
     if (!titles.includes(env.frontmatter.title)) return result
 
-    return `${result}<Feedback heading="${heading.content}" />`
+    return `<Feedback heading="${heading.content}" />${result}</div>`
   }
 }

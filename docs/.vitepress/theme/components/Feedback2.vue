@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue'
+import { computed, ref, reactive } from 'vue'
 import {
   feedbackOptions,
   type FeedbackType,
-  getPrompt,
-  getFeedbackOption,
-  getRandomFeedbackModalMessage
+  getFeedbackOption
 } from '../../types/Feedback'
 import { useRouter } from 'vitepress'
 
@@ -13,9 +11,62 @@ const props = defineProps<{
   heading?: string
 }>()
 
+const prompts = [
+  'Make it count!',
+  'Leave some feedback for us!',
+  `We're all ears 🐰`,
+  'Tell us what is missing in FMHY',
+  'Your thoughts matter to us 💡',
+  'Feedback is a gift 🎁',
+  'What do you think?',
+  'We appreciate your support 🙏',
+  'Help us make FMHY better 🤝',
+  'We need your help 👋',
+  'Your feedback is valuable 💯',
+  'So... what do you think?',
+  "I guess you don't need to say anything 😉"
+]
+
+function getPrompt() {
+  return prompts[Math.floor(Math.random() * prompts.length)]
+}
+
+const messages = {
+  bug: [
+    "We're sorry to hear that!",
+    'Please try to be as specific as possible and provide us with the steps to reproduce the bug.'
+  ],
+  suggestion: [
+    "We're glad you want to share your ideas!",
+    'Nix the fluff and just tell us what you think!',
+    "We'll be happy to read your thoughts and incorporate them into our content."
+  ],
+  appreciation: [
+    'We appreciate your support!',
+    "We're always looking for ways to improve!.",
+    'Your feedback is valuable and helps us make FMHY better.'
+  ],
+  other: [
+    "We're always looking for ways to improve!",
+    'Your feedback is valuable and helps us make FMHY better.'
+  ]
+}
+
+function getMessage(type: FeedbackType['type']) {
+  return messages[type][Math.floor(Math.random() * messages[type].length)]
+}
+
 const loading = ref<boolean>(false)
 const error = ref<unknown>(null)
 const success = ref<boolean>(false)
+
+const isDisabled = computed(() => {
+  return (
+    !feedback.message.length ||
+    feedback.message.length < 5 ||
+    feedback.message.length > 1000
+  )
+})
 
 const router = useRouter()
 const feedback = reactive<
@@ -64,6 +115,9 @@ async function handleSubmit(type?: FeedbackType['type']) {
 
 const showCard = ref<boolean>(false)
 const helpfulText = props.heading ? 'section' : 'page'
+
+const prompt = computed(() => getPrompt())
+const message = computed(() => getMessage(feedback.type!))
 </script>
 
 <template>
@@ -71,16 +125,18 @@ const helpfulText = props.heading ? 'section' : 'page'
     <button
       v-if="!showCard"
       @click="showCard = true"
-      class="inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
+      class="ml-auto inline-flex h-8 items-center justify-center rounded-md whitespace-nowrap text-sm text-primary font-medium border-solid border-1 border-primary hover:border-dotted bg-bg-alt px-2 py-2 sm:h-7"
     >
       <span class="i-carbon-send-alt" />
+      <span class="sr-only">Send Feedback</span>
     </button>
     <button
       v-if="showCard"
-      class="inline-flex items-center justify-center whitespace-nowrap text-sm text-primary font-medium border border-primary bg-bg-alt h-8 rounded-md px-2 py-2"
+      class="ml-auto inline-flex h-8 items-center justify-center rounded-md whitespace-nowrap text-sm text-primary font-medium border-solid border-1 border-primary hover:border-dotted bg-bg-alt px-2 py-2 sm:h-7"
       @click="showCard = false"
     >
       <span class="i-carbon-close" />
+      <span class="sr-only">Close Feedback</span>
     </button>
   </template>
   <template v-else>
@@ -108,7 +164,7 @@ const helpfulText = props.heading ? 'section' : 'page'
         <div v-if="!feedback.type" class="step">
           <div>
             <div>
-              <p class="desc">{{ getPrompt() }}</p>
+              <p class="desc">{{ prompt }}</p>
               <p class="heading">How helpful was this {{ helpfulText }}?</p>
             </div>
           </div>
@@ -140,7 +196,7 @@ const helpfulText = props.heading ? 'section' : 'page'
             </div>
           </div>
           <p class="heading">
-            {{ getRandomFeedbackModalMessage(feedback.type) }}
+            {{ message }}
           </p>
           <div v-if="feedback.type === 'suggestion'" class="text-sm mb-2">
             <details>
@@ -208,9 +264,7 @@ const helpfulText = props.heading ? 'section' : 'page'
           <button
             type="submit"
             class="btn btn-primary"
-            :disabled="
-              feedback.message.length < 5 || feedback.message.length > 1000
-            "
+            :disabled="isDisabled"
             @click="handleSubmit()"
           >
             Send Feedback 📩
@@ -224,7 +278,7 @@ const helpfulText = props.heading ? 'section' : 'page'
   </Transition>
 </template>
 
-<style scoped>
+<style scoped lang="css">
 .step > * + * {
   margin-top: 1rem;
 }

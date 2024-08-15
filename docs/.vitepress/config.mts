@@ -54,6 +54,7 @@ export default defineConfig({
   vite: {
     optimizeDeps: { exclude: ['workbox-window'] },
     plugins: [
+      // @ts-expect-error
       UnoCSS({
         configFile: '../unocss.config.ts'
       }),
