@@ -69,6 +69,7 @@
 * irc://irc.undernet.org/bookz
 * irc://irc.irchighway.net/ebooks / [Request Guide](https://i.ibb.co/3WcCF56/3574e36b1bb2.png)
 * IRC Book Tools - [Guide](https://www.reddit.com/r/Piracy/comments/2oftbu/guide_the_idiot_proof_guide_to_downloading_ebooks/) / [mIRC](https://redd.it/znprct) / [Downloader](https://evan-buss.github.io/openbooks/)
+* [Bookracy](https://lite.bookracy.org/) - Books / [Subreddit](https://reddit.com/r/bookracy) / [Discord](https://discord.com/bookracy)
 * [BookSee](https://en.booksee.org/), [2](https://bookree.org/) - Books
 * [Bookstagram](https://vk.com/bookstagram_eng) - Books / Magazines
 * [Docutr](https://www.docutr.com/) - Books / Magazines / Newspapers
@@ -692,8 +693,8 @@ https://www.wuxiaspot.com/
 
 ## ▷ Academic Papers
 
-* ⭐ **[Sci-Hub](https://sci-hub.se/)** - Science Articles / Research Papers
-* ⭐ **Sci-Hub Tools** - [Telegram](https://t.me/freescience) / [Mirrors](https://vertsluisants.fr/index.php?article4/where-scihub-libgen-server-down), [2](https://sci-hub.hkvisa.net/) / [TG Bot](https://t.me/scihubot) / [Extension](https://addons.mozilla.org/en-US/firefox/addon/sci-hub-scholar/) / [DL Button](https://greasyfork.org/zh-CN/scripts/370246-sci-hub-button), [2](https://github.com/gchenfc/sci-hub-now) / [PDF Download](https://gagarine.medium.com/use-sci-hub-with-zotero-as-a-fall-back-pdf-resolver-cf139eb2cea7) / [Backup](https://redd.it/edwi9b) / [/r/scihub](https://reddit.com/r/scihub) / [VK](https://vk.com/sci_hub) / [DOI Redirect](https://greasyfork.org/en/scripts/412498)
+* ⭐ **[Sci-Hub](https://sci-hub.se/)** - Science Articles / Research Papers / [Mirrors](https://vertsluisants.fr/index.php?article4/where-scihub-libgen-server-down) / [VK](https://vk.com/sci_hub) / [Subreddit](https://reddit.com/r/scihub)
+* ⭐ **Sci-Hub Tools** - [Official TG Bot](https://t.me/scihubot), [2](https://t.me/freescience) / [Extension](https://addons.mozilla.org/en-US/firefox/addon/sci-hub-scholar/) / [DL Button](https://greasyfork.org/zh-CN/scripts/370246-sci-hub-button), [2](https://github.com/gchenfc/sci-hub-now) / [PDF Download](https://gagarine.medium.com/use-sci-hub-with-zotero-as-a-fall-back-pdf-resolver-cf139eb2cea7) / [Dumps](https://redd.it/edwi9b) / [DOI Redirect](https://greasyfork.org/en/scripts/412498)
 * ⭐ **[Google Scholar](https://scholar.google.com/)** - Academic Papers Search Engine
 * ⭐ **[Scinapse](https://scinapse.io/)** - Academic Papers Search Engine
 * ⭐ **[ResearchGate](https://www.researchgate.net/)** - Research Papers / Publications

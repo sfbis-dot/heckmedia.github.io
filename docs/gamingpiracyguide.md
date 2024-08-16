@@ -66,7 +66,7 @@
 ***
 
 * ⭐ **[KaOsKrew](https://www.kaoskrew.org/)** - Download / Torrent / [Discord](https://discord.com/invite/WF2pqPTFBs)
-* ⭐ **[FitGirl Repacks](https://fitgirl-repacks.site/)** - Download / Torrent / ROM Repacks / [Discord](https://discord.gg/Up3YARe4RW)
+* ⭐ **[FitGirl Repacks](https://fitgirl-repacks.site/)** - Download / Torrent / ROM Repacks / [Unofficial Discord](https://discord.gg/Up3YARe4RW)
 * ⭐ **[M4CKD0GE Repacks](https://m4ckd0ge-repacks.site/)** - Download / [Discord](https://discord.gg/693hNBdymb)
 * ⭐ **[ARMGDDN Browser](https://cs.rin.ru/forum/viewtopic.php?f=14&t=140593)** / [Telegram](https://t.me/ARMGDDNGames) - Download
 * ⭐ **[Gnarly Repacks](https://rentry.co/FMHYBase64#gnarly_repacks)** - Download / Password: gnarly
@@ -435,8 +435,8 @@
 * ⭐ **[Codenames](https://codenames.game/)** - Party Card Games
 * ⭐ **[GarticPhone](https://garticphone.com/)** - Telephone Game
 * ⭐ **[skribbl](https://skribbl.io/)**, [Sketchful](https://sketchful.io/), [Drawize](https://www.drawize.com/) or [Gartic](https://gartic.io/) - Drawing / Guessing Game / Multiplayer
-* ⭐ **[Eaglercraft](https://eaglercraft.com/)** - Online Browser Minecraft
-* ⭐ **Eaglercraft Tools** - [Note](https://pastebin.com/wpDZzgN5) / [Source](https://git.eaglercraft.rip/eaglercraft) / [Client](https://eaglercraftx1-8.github.io/1.8/resent4.0/index.html) / [Mod Client](https://eaglerforge.github.io/) / [Mod Search](https://eaglerrinth.github.io/)  / [Code Mods](https://eaglerforge-builder.vercel.app/) / [Servers](https://servers.eaglercraft.com/) / [Eaglercrack](https://eaglercrack.net/)
+* ⭐ **[Eaglercraft](https://eaglercraft.com/)** - Online Browser Minecraft / [Note](https://pastebin.com/wpDZzgN5) / [Source](https://git.eaglercraft.rip/eaglercraft)
+* ⭐ **Eaglercraft Tools** - [Client](https://eaglercraftx1-8.github.io/1.8/resent4.0/index.html) / [Mod Loader](https://eaglerforge.github.io/) / [Mod Search](https://eaglerrinth.github.io/)  / [Create Mods](https://eaglerforge-builder.vercel.app/) / [Public Servers](https://servers.eaglercraft.com/)
 * [MiniBlox](https://miniblox.io/) - Online Minecraft Alternative
 * [Bloob.io](https://bloob.io/) - Multiple Games
 * [Gidd.io](https://gidd.io/) - Multiple Games
