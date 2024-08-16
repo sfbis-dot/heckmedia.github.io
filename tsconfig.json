@@ -4,10 +4,7 @@
     "baseUrl": ".",
     "module": "esnext",
     "target": "esnext",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
+    "lib": ["DOM", "ESNext"],
     "strict": true,
     "jsx": "preserve",
     "esModuleInterop": true,
@@ -17,9 +14,7 @@
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "types": [
-      "vitepress"
-    ]
+    "types": ["vitepress"]
   },
   "include": [
     "**/.vitepress/**/*.ts",
@@ -27,7 +22,5 @@
     "**/.vitepress/**/*.vue",
     "./docs/.vitepress/imports.d.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
