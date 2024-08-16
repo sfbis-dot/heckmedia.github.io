@@ -27,7 +27,9 @@ export const feedbackOptions: Option[] = [
   { label: '📂 Something else', value: 'other' }
 ]
 
-export function getFeedbackOption(value: FeedbackType['type']): Option {
+export function getFeedbackOption(
+  value: FeedbackType['type']
+): Option | undefined {
   return feedbackOptions.find((option) => option.value === value)
 }
 

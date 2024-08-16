@@ -14,6 +14,7 @@ import { defs, emojiRender, movePlugin } from './markdown/emoji'
 import { toggleStarredPlugin } from './markdown/toggleStarred'
 import { headersPlugin } from './markdown/headers'
 import { transforms } from './transformer'
+import AutoImport from 'unplugin-auto-import/vite'
 
 // @unocss-include
 
@@ -54,9 +55,17 @@ export default defineConfig({
   vite: {
     optimizeDeps: { exclude: ['workbox-window'] },
     plugins: [
-      // @ts-expect-error
       UnoCSS({
         configFile: '../unocss.config.ts'
+      }),
+      AutoImport({
+        dts: './.vitepress/imports.d.ts',
+        imports: ['vue', 'vitepress'],
+        vueTemplate: true,
+        biomelintrc: {
+          enabled: true,
+          filepath: './docs/.vitepress/.imports.json'
+        }
       }),
       transforms(),
       {
